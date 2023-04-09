@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0 auto;
+    background-color: rgba(252, 251, 251, 0.946);
+}
+
+header {
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    display: flex;
+    align-items: center;
+    padding: 20px 10vw 20px;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.header--logo-img {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.header--logo {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    padding: 0 50px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.meme-form {
+    margin-top: 10vh;
+}
+
+.meme-form--top-message,
+.meme-form--bottom-message {
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 204, 204);
+}
+
+.meme-form--top-message {
+    margin-right: 10%;
+}
+
+.meme-form--get-meme-btn {
+    display: block;
+    width: 100%;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.meme-form--btn-icon {
+    color: chartreuse;
+    margin-left: 0.5rem;
+}
+
+.meme-container {
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.meme-container--text {
+    position: absolute;
+    margin: 25px 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.meme-container--image {
+    width: 100%;
+    border-radius: 10px;
+}
